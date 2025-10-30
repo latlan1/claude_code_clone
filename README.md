@@ -54,7 +54,9 @@ Example .env:
   docker build -t deno-docker:latest -f ./mcps/deno/Dockerfile .
 
 ## Common prompts to try
-- "Show me the content of main.py"
+- summarize the recent articles from https://simonwillison.net/
+- use python_run_code tool to run ascii_art_generator.py
+- "Show me the content of main.py" (assuming you have exposed this to Desktop Commander MCP or enable built-in read_file tool)
 - "What tools do you have?"
 - "Read /absolute/path/to/requirements.txt"
 
